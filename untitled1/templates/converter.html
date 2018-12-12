@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        <form action="/converter/" method="get">
+            {% csrf_token %}
+            <input type = "text" name = "key11"/>
+            <input type = "submit" value = "Узнать слова"/>
+        </form>
+        <form action="/converter/">
+            {{ year }}
+        </form>
+
+</body>
+</html>
