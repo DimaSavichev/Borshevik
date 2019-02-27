@@ -1,0 +1,72 @@
+body{
+    background: #000000 url("../img/background.jpg");
+    background-size: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    width: 656px;
+    margin:auto;
+}
+
+ul li{
+    list-style-type: none;
+    margin-top: 5vh;
+}
+
+a.start{
+    background: url("../img/start1.png");
+    display: block;
+    width: 656px;
+    height: 50px;
+}
+
+a.start:hover{
+    background: url("../img/start2.png");
+}
+
+a.rules{
+    background: url("../img/rules1.png");
+    display: block;
+    width: 656px;
+    height: 50px;
+}
+
+a.rules:hover{
+    background: url("../img/rules2.png");
+}
+
+a.questions{
+    background: url("../img/questions1.png");
+    display: block;
+    width: 656px;
+    height: 50px;
+}
+
+a.questions:hover{
+    background: url("../img/quesions2.png");
+}
+
+a.startNewGame{
+    background: url("../images/new_game.png");
+    display: block;
+    width: 656px;
+    height: 50px;
+}
+
+a.startNewGame:hover{
+    background: url("../images/new_game2.png");
+}
+
+a.main{
+    background: url("../images/main.png");
+    display: block;
+    width: 656px;
+    height: 50px;
+}
+
+a.main:hover{
+    background: url("../images/main2.png");
+}

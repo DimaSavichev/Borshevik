@@ -1,0 +1,28 @@
+body{
+    background: #000000 url("../img/background.jpg");
+    background-size: 100%;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    color: goldenrod;
+}
+
+section{
+    background: goldenrod;
+    color: black;
+    width: 60%;
+    alignment: center;
+    font-style:inherit;
+    text-align: left;
+    margin:auto;
+    padding:20px;
+    font-size: 20px;
+}
+
+img{
+    width: 547px;
+}
+
+
+
+

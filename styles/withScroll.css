@@ -1,0 +1,110 @@
+html, body, nav, ul, .logo-img, nav ul,.logo, .main-item, hr, h1, footer, footer p, h2 {
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: "Times New Roman", serif;
+}
+main, header{
+    margin:0 13vw;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+nav {
+    display: block;
+    float: right;
+    height: 8vh;
+    box-sizing: border-box;
+    line-height: 8vh;
+    width: 64.7vw;
+    margin-top: 4vh;
+}
+h1 {
+    line-height: 15vh;
+}
+.main-item, .logo, h1 {
+    height: 15vh;
+}
+.main-item {
+    margin-left: 13vw;
+}
+.logo, .main-item {
+    float: left;
+}
+.main-item, nav li {
+    width: 21vw;
+}
+h1, nav li, nav ul {
+    display:inline-block;
+}
+
+.inactive_button {
+    background-color: #fef8e2;
+}
+nav li:nth-of-type(n+2) {
+    margin-left: 0;
+}
+.active_button {
+    background-color: #FFFFF4;
+    border-bottom: 1px solid black;
+}
+
+.inactive_button:hover {
+    background-color: #FFFFFD;
+    /*border: 1px solid black;*/
+    box-shadow: inset 0 0 2px black;
+    /*width: 20vw;*/
+}
+
+.center {
+    text-align: center;
+}
+h1, .active_button {
+    color: #c02b01;
+}
+
+.logo-img {
+    height: inherit;
+}
+h1 {
+    font-weight: bold;
+}
+
+header {
+    margin-top: 17vh;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.mail{
+    margin:5px 13vw 5px 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align:right;
+}
+
+.text{
+    background-color: #e6e6e6;
+}
+
+figure p {
+    height: 1.8vh;
+}
+
+footer{
+    left: 0;
+    bottom: 0;
+    background-color: #23b574;
+    color:white;
+    padding:15px;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0;
+}

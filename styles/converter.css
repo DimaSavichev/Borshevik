@@ -1,0 +1,29 @@
+section.convert{
+    background: #e6e6e6;
+    margin: 0 13vw;
+    height: auto;
+    padding: 2vw;
+}
+p{
+    margin: auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 120%;
+}
+
+input{
+    float: left;
+}
+
+input.button{
+    background-color: #23b574;
+    color: white;
+}
+
+h1.conv-header{
+    margin: 0;
+    padding-right: 34%;
+}

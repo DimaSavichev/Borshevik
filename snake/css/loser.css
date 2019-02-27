@@ -1,0 +1,25 @@
+body{
+	background: #000000 url("../img/background.jpg");
+	background-size: 100%;
+	text-align: center;
+	margin: auto;
+	padding: auto;
+}
+
+img.looser{
+	height: 100px;
+}
+
+img.winner{
+	height: 120px;
+}
+
+nav{
+	width: 656px;
+}
+
+li{
+	list-style-type: none;
+	padding-top: 5vh;
+}
+
