@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Converter</title>
+    <title>Конвертер</title>
     <link rel="stylesheet" type="text/css" href="../styles/style.css">
     <link rel="stylesheet" type="text/css" href="../styles/converter.css">
 </head>
@@ -23,11 +23,11 @@
     </ul>
 </nav>
 <section>
-    <h1 class="conv-header">Конвертер для дат</h1>
+    <h1 class="title">Конвертер для дат</h1>
     <section class="convert">
 	  <?php
     		echo "
-			  <form action ='Converter.php' method='GET'>
+			  <form action ='converter.php' method='GET'>
 			  	<h2>Введите дату:</h2>
         		<input type='text' placeholder='Введите год' name='date'><br><br>
 				<input class='button' type='submit' value='Получить слова для даты'><br><br>
@@ -57,6 +57,7 @@
       		}
     		}
   	?>
+        <br><a href="../articles/aboutmnemotech.html"><input class='button' type='submit' value='О мнемотехнике'></a>
     </section>
 </section>
 <footer>
